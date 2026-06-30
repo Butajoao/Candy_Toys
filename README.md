@@ -1,15 +1,15 @@
 # Candy Toy B2B Site
 
-Reconstrucao do site Candy Toy como plataforma comercial B2B para lojistas, revendedores, atacadistas e distribuidores de brinquedos com doces.
+Reconstrução do site Candy Toy como plataforma comercial B2B para lojistas, revendedores, atacadistas e distribuidores de brinquedos com doces.
 
 ## Stack
 
 - Next.js App Router
 - TypeScript strict
-- Tailwind CSS com tokens semanticos
-- Motion para animacoes sutis de UI
+- Tailwind CSS com tokens semânticos
+- Motion para animações sutis de UI
 - `next/image` e `next/font`
-- Server Actions com validacao Zod
+- Server Actions com validação Zod
 - Vercel Analytics preparado
 
 ## Rotas
@@ -26,9 +26,9 @@ Reconstrucao do site Candy Toy como plataforma comercial B2B para lojistas, reve
 - `/brinquedos-com-doces`
 - `/displays-para-lojas`
 - `/doces-com-brinquedos-para-revenda`
-- `/lancamentos`
+- `/lançamentos`
 
-## Variaveis de ambiente
+## Variáveis de ambiente
 
 ```env
 NEXT_PUBLIC_SITE_URL=https://www.candytoy.com.br
@@ -37,24 +37,24 @@ NEXT_PUBLIC_WHATSAPP_NUMBER=5500000000000
 
 ## Assets
 
-Os assets iniciais foram derivados do arquivo `Catalogo CandyToy.pdf` fornecido no workspace. As paginas renderizadas estao em `public/catalog/` e o PDF publico em `public/catalog/catalogo-candytoy-2025.pdf`.
+Os assets iniciais foram derivados do arquivo `Catalogo CandyToy.pdf` fornecido no workspace. As páginas renderizadas estão em `public/catalog/` e o PDF público em `public/catalog/catalogo-candytoy-2025.pdf`.
 
-Pendencia: substituir paginas inteiras por recortes oficiais de produto e logo transparente aprovado quando disponiveis.
+Pendência: substituir páginas inteiras por recortes oficiais de produto e logo transparente aprovado quando disponíveis.
 
-## Motion e direcao visual
+## Motion e direção visual
 
 - Hero com Motion, fade/zoom inicial, elementos flutuantes e parallax por movimento do mouse.
-- Secoes com reveal on scroll, backgrounds coloridos e imagens reais do catalogo em transparencia.
-- Cards de produto, categoria, etapas e galeria com microinteracoes de zoom/hover.
-- Logo temporaria tratada em `public/catalog/candytoy-logo-transparent.png` para remover o fundo amarelo do recorte original.
+- Seções com reveal on scroll, backgrounds coloridos e imagens reais do catálogo em transparência.
+- Cards de produto, categoria, etapas e galeria com microinterações de zoom/hover.
+- Logo temporária tratada em `public/catalog/candytoy-logo-transparent.png` para remover o fundo amarelo do recorte original.
 
-## Formularios
+## Formulários
 
-Os formularios usam Server Action e validacao server-side com Zod. Nesta primeira versao, o lead validado e registrado no log do servidor.
+Os formulários usam Server Action e validação server-side com Zod. Nesta primeira versão, o lead validado é registrado no log do servidor.
 
-Pendencia antes de producao: integrar envio real para e-mail, CRM, planilha, webhook ou WhatsApp comercial, com antispam e politica de privacidade validada.
+Pendência antes de produção: integrar envio real para e-mail, CRM, planilha, webhook ou WhatsApp comercial, com antispam e política de privacidade validada.
 
-## Validacao
+## Validação
 
 Comandos principais:
 
@@ -65,12 +65,12 @@ pnpm build
 pnpm dev
 ```
 
-## Riscos e pendencias
+## Riscos e pendências
 
-- Dados institucionais, telefone, e-mail, endereco, horario, politica de privacidade e representantes estao como `[PENDENTE DE CONFIRMACAO]`.
-- Certificacoes, registros, EAN, idade recomendada e dimensoes nao foram inventados.
-- WhatsApp usa placeholder enquanto o numero oficial nao for informado.
-- Catalogo PDF nao substitui uma experiencia acessivel completa; o HTML do catalogo deve evoluir.
+- Dados institucionais, telefone, e-mail, endereço, horário, política de privacidade e representantes estão como `[PENDENTE DE CONFIRMAÇÃO]`.
+- Certificações, registros, EAN, idade recomendada e dimensões não foram inventados.
+- WhatsApp usa placeholder enquanto o número oficial não for informado.
+- Catálogo PDF não substitui uma experiência acessível completa; o HTML do catálogo deve evoluir.
 - Lighthouse/QA visual devem ser executados em ambiente com build validado.
 
 ## Commit sugerido

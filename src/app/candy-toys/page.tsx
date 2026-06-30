@@ -3,7 +3,7 @@ import { SeoLanding } from "@/components/sections/SeoLanding";
 
 export const metadata: Metadata = {
   title: "Candy Toys para Lojistas",
-  description: "Candy Toys com doces para revenda, displays e exposicao comercial no ponto de venda.",
+  description: "Candy Toys com doces para revenda, displays e exposição comercial no ponto de venda.",
 };
 
 export default function CandyToysPage() {

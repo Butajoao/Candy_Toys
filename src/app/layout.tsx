@@ -36,7 +36,7 @@ export const metadata: Metadata = {
         url: "/catalog/catalog-page-1.png",
         width: 980,
         height: 1400,
-        alt: "Catalogo Candy Toy 2025",
+        alt: "Catálogo Candy Toy 2025",
       },
     ],
     locale: "pt_BR",

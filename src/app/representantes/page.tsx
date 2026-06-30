@@ -26,9 +26,9 @@ export default function RepresentativesPage() {
               description="Conecte sua loja ao time comercial Candy Toy ou cadastre interesse em representar a marca."
             />
             <div className="mt-8 grid gap-4">
-              <FeatureCard icon={MapPinned} title="Encontre atendimento comercial" description="Informe cidade, UF e tipo de negocio para direcionamento do contato." />
-              <FeatureCard icon={Handshake} title="Quero atendimento para minha loja" description="Receba catalogo e condicoes comerciais para iniciar uma cotacao B2B." />
-              <FeatureCard icon={BriefcaseBusiness} title="Seja representante Candy Toy" description="Cadastre interesse para avaliacao comercial. Regioes disponiveis: [PENDENTE DE CONFIRMACAO]." />
+              <FeatureCard icon={MapPinned} title="Encontre atendimento comercial" description="Informe cidade, UF e tipo de negócio para direcionamento do contato." />
+              <FeatureCard icon={Handshake} title="Quero atendimento para minha loja" description="Receba catálogo e condições comerciais para iniciar uma cotação B2B." />
+              <FeatureCard icon={BriefcaseBusiness} title="Seja representante Candy Toy" description="Cadastre interesse para avaliação comercial. Regiões disponíveis: [PENDENTE DE CONFIRMAÇÃO]." />
             </div>
             <Button className="mt-8" href={whatsappUrl(globalWhatsappMessage)}>
               Falar com representante

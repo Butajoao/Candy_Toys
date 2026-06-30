@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Container";
 import { globalWhatsappMessage, whatsappUrl } from "@/lib/whatsapp";
 
-const trustSeals = ["Produtos para revenda", "Displays prontos para exposicao", "Atendimento comercial", "Catalogo B2B"];
+const trustSeals = ["Produtos para revenda", "Displays prontos para exposição", "Atendimento comercial", "Catálogo B2B"];
 
 const textVariants = {
   hidden: { opacity: 0, y: 22, scale: 0.98 },
@@ -98,10 +98,10 @@ export function HeroMotion() {
             variants={textVariants}
             className="mt-6 font-display text-4xl font-black leading-[0.98] text-brand-navy drop-shadow-sm sm:text-6xl lg:text-7xl"
           >
-            Brinquedos com doces que chamam atencao e giram rapido no ponto de venda
+            Brinquedos com doces que chamam atenção e giram rápido no ponto de venda
           </motion.h1>
           <motion.p variants={textVariants} className="mt-6 max-w-2xl text-lg leading-8 text-ink/80">
-            Produtos coloridos, divertidos e prontos para exposicao em lojas, bombonieres, mercados,
+            Produtos coloridos, divertidos e prontos para exposição em lojas, bombonieres, mercados,
             papelarias e distribuidores.
           </motion.p>
           <motion.div variants={textVariants} className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -109,7 +109,7 @@ export function HeroMotion() {
               Quero comprar para minha loja <MessageCircle size={20} />
             </Button>
             <Button href="/catalogo-b2b" size="lg" variant="secondary">
-              Ver catalogo B2B <ArrowRight size={20} />
+              Ver catálogo B2B <ArrowRight size={20} />
             </Button>
           </motion.div>
           <motion.div variants={textVariants} className="mt-8 hidden gap-3 sm:grid sm:grid-cols-2">

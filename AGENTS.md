@@ -2,7 +2,7 @@
 
 ## Objetivo local
 
-Reconstruir o site Candy Toy como experiencia comercial B2B para brinquedos com doces, priorizando conversao de lojistas, revendedores, distribuidores e representantes.
+Reconstruir o site Candy Toy como experiência comercial B2B para brinquedos com doces, priorizando conversão de lojistas, revendedores, distribuidores e representantes.
 
 ## Fonte de verdade
 
@@ -12,21 +12,21 @@ Reconstruir o site Candy Toy como experiencia comercial B2B para brinquedos com 
 
 ## Regras especificas
 
-- Nao tratar o site como e-commerce B2C.
-- Nao inventar certificacoes, numeros, representantes, cobertura nacional, EAN, registros ou dados legais.
-- Marcar informacoes nao confirmadas como `[PENDENTE DE CONFIRMACAO]`.
-- Preservar identidade visual do catalogo: amarelo Candy, azul institucional, vermelho de CTA e cores de categoria com respiro.
-- Priorizar CTA B2B em todas as paginas estrategicas.
+- Não tratar o site como e-commerce B2C.
+- Não inventar certificações, números, representantes, cobertura nacional, EAN, registros ou dados legais.
+- Marcar informações não confirmadas como `[PENDENTE DE CONFIRMAÇÃO]`.
+- Preservar identidade visual do catálogo: amarelo Candy, azul institucional, vermelho de CTA e cores de categoria com respiro.
+- Priorizar CTA B2B em todas as páginas estratégicas.
 - Usar `next/image`, `next/font`, Metadata API, sitemap e robots.
-- Formularios devem ter validacao server-side e texto LGPD minimo.
-- Antes de producao, acionar seguranca, QA, observabilidade e devops.
+- Formulários devem ter validação server-side e texto LGPD mínimo.
+- Antes de produção, acionar segurança, QA, observabilidade e devops.
 
 ## Definition of Done local
 
 - Build passa.
 - Rotas principais funcionam.
-- Formularios validam no servidor.
+- Formulários validam no servidor.
 - WhatsApp contextual esta configurado.
 - Metadata, sitemap e robots existem.
-- README e memoria Jarvis atualizados.
-- Riscos e pendencias declarados.
+- README e memória Jarvis atualizados.
+- Riscos e pendências declarados.

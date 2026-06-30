@@ -11,7 +11,7 @@ export default function ResaleSweetsPage() {
     <SeoLanding
       eyebrow="Revenda"
       title="Doces com brinquedos para revenda"
-      description="Produtos com apelo infantil e apresentacao comercial para pontos de venda de alto fluxo."
+      description="Produtos com apelo infantil e apresentação comercial para pontos de venda de alto fluxo."
       image="/catalog/catalog-page-3.png"
     />
   );

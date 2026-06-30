@@ -6,12 +6,12 @@ export function ProductSpecs({ product }: { product: Product }) {
     ["Quantidade por display", product.displayQuantity],
     ["Quantidade por caixa", product.boxQuantity],
     ["Tipo de doce", product.candyType],
-    ["Idade recomendada", product.recommendedAge ?? "[PENDENTE DE CONFIRMACAO]"],
-    ["Dimensoes", product.dimensions ?? "[PENDENTE DE CONFIRMACAO]"],
-    ["Peso", product.weight ?? "[PENDENTE DE CONFIRMACAO]"],
-    ["SKU / Codigo", product.sku],
-    ["EAN", product.ean ?? "[PENDENTE DE CONFIRMACAO]"],
-    ["Certificacao / registro", product.certification ?? "[PENDENTE DE CONFIRMACAO]"],
+    ["Idade recomendada", product.recommendedAge ?? "[PENDENTE DE CONFIRMAÇÃO]"],
+    ["Dimensões", product.dimensions ?? "[PENDENTE DE CONFIRMAÇÃO]"],
+    ["Peso", product.weight ?? "[PENDENTE DE CONFIRMAÇÃO]"],
+    ["SKU / Código", product.sku],
+    ["EAN", product.ean ?? "[PENDENTE DE CONFIRMAÇÃO]"],
+    ["Certificação / registro", product.certification ?? "[PENDENTE DE CONFIRMAÇÃO]"],
   ];
 
   return (

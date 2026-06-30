@@ -9,7 +9,7 @@ import { products } from "@/data/products";
 
 export const metadata: Metadata = {
   title: "Produtos para Revenda",
-  description: "Catalogo navegavel de brinquedos com doces Candy Toy para lojistas e revendedores.",
+  description: "Catálogo navegável de brinquedos com doces Candy Toy para lojistas e revendedores.",
 };
 
 type Search = Promise<Record<string, string | string[] | undefined>>;
@@ -38,14 +38,14 @@ export default async function ProductsPage({ searchParams }: { searchParams?: Se
           <SectionTitle
             eyebrow="Produtos"
             title="Produtos Candy Toy para revenda"
-            description="Explore brinquedos com doces, displays e lancamentos preparados para pontos de venda."
+            description="Explore brinquedos com doces, displays e lançamentos preparados para pontos de venda."
           />
           <form className="rounded-2xl bg-white/92 p-4 shadow-xl shadow-brand-primary/10 ring-1 ring-white/80 backdrop-blur">
             <div className="grid gap-3 sm:grid-cols-[1fr_220px_auto]">
               <input
                 name="busca"
                 defaultValue={query}
-                placeholder="Buscar por produto, referencia ou categoria"
+                placeholder="Buscar por produto, referência ou categoria"
                 className="h-12 rounded-xl border border-brand-navy/15 px-4 outline-none focus:border-action-primary"
               />
               <select
@@ -71,7 +71,7 @@ export default async function ProductsPage({ searchParams }: { searchParams?: Se
           ) : (
             <div className="rounded-2xl bg-white p-8 text-center ring-1 ring-brand-navy/10">
               <h2 className="font-display text-2xl font-black text-brand-navy">Nenhum produto encontrado</h2>
-              <p className="mt-2 text-ink/70">Ajuste a busca ou fale com o comercial para receber o catalogo completo.</p>
+              <p className="mt-2 text-ink/70">Ajuste a busca ou fale com o comercial para receber o catálogo completo.</p>
             </div>
           )}
         </div>

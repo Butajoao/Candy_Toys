@@ -10,14 +10,14 @@ import { globalWhatsappMessage, whatsappUrl } from "@/lib/whatsapp";
 
 export const metadata: Metadata = {
   title: "Contato",
-  description: "Fale com a Candy Toy para atendimento comercial, catalogo B2B, representantes ou informacoes institucionais.",
+  description: "Fale com a Candy Toy para atendimento comercial, catálogo B2B, representantes ou informações institucionais.",
 };
 
 const contactItems = [
   { icon: Phone, label: "Telefone", value: siteConfig.contact.phone },
   { icon: Mail, label: "E-mail", value: siteConfig.contact.email },
-  { icon: MapPin, label: "Endereco", value: siteConfig.contact.address },
-  { icon: MessageCircle, label: "Horario", value: siteConfig.contact.hours },
+  { icon: MapPin, label: "Endereço", value: siteConfig.contact.address },
+  { icon: MessageCircle, label: "Horário", value: siteConfig.contact.hours },
 ];
 
 export default function ContactPage() {
@@ -29,7 +29,7 @@ export default function ContactPage() {
           <SectionTitle
             eyebrow="Contato"
             title="Fale com a Candy Toy"
-            description="Entre em contato para atendimento comercial, catalogo B2B, representantes ou informacoes institucionais."
+            description="Entre em contato para atendimento comercial, catálogo B2B, representantes ou informações institucionais."
           />
           <div className="mt-8 grid gap-4">
             {contactItems.map((item) => (

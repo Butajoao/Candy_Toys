@@ -5,8 +5,8 @@ export function whatsappUrl(message: string) {
 }
 
 export const globalWhatsappMessage =
-  "Ola, tenho interesse em comprar Candy Toy para minha loja. Vim pelo site e gostaria de receber o catalogo B2B.";
+  "Olá, tenho interesse em comprar Candy Toy para minha loja. Vim pelo site e gostaria de receber o catálogo B2B.";
 
 export function productWhatsappMessage(productName: string) {
-  return `Ola, tenho interesse no produto ${productName} para revenda. Pode me enviar condicoes comerciais?`;
+  return `Olá, tenho interesse no produto ${productName} para revenda. Pode me enviar condições comerciais?`;
 }

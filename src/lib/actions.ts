@@ -22,7 +22,7 @@ export async function submitLeadForm(
   if (!parsed.success) {
     return {
       ok: false,
-      message: "Revise os campos destacados para enviar sua solicitacao.",
+      message: "Revise os campos destacados para enviar sua solicitação.",
       fields,
       errors: parsed.error.flatten().fieldErrors,
     };
@@ -38,6 +38,6 @@ export async function submitLeadForm(
   return {
     ok: true,
     message:
-      "Recebemos seus dados. O proximo passo e o atendimento comercial retornar com catalogo e condicoes para revenda.",
+      "Recebemos seus dados. O próximo passo é o atendimento comercial retornar com catálogo e condições para revenda.",
   };
 }

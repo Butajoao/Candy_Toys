@@ -111,7 +111,7 @@ export function CatalogLeadForm({ source = "catalogo-b2b" }: { source?: string }
           </label>
         </div>
         <label className="block">
-          <span className="text-sm font-black text-brand-navy">Tipo de negocio</span>
+          <span className="text-sm font-black text-brand-navy">Tipo de negócio</span>
           <select
             name="businessType"
             defaultValue={state.fields?.businessType ?? ""}
@@ -150,8 +150,8 @@ export function CatalogLeadForm({ source = "catalogo-b2b" }: { source?: string }
       </div>
 
       <p className="mt-5 text-xs leading-5 text-ink/60">
-        Ao enviar, voce concorda que a Candy Toy entre em contato usando os dados informados. Politica de
-        privacidade oficial: [PENDENTE DE CONFIRMACAO].
+        Ao enviar, você concorda que a Candy Toy entre em contato usando os dados informados. Política de
+        privacidade oficial: [PENDENTE DE CONFIRMAÇÃO].
       </p>
 
       {state.message ? (
@@ -166,7 +166,7 @@ export function CatalogLeadForm({ source = "catalogo-b2b" }: { source?: string }
 
       <Button type="submit" className="mt-6 w-full" size="lg" disabled={pending}>
         <Send size={18} />
-        {pending ? "Enviando..." : "Receber catalogo B2B"}
+        {pending ? "Enviando..." : "Receber catálogo B2B"}
       </Button>
     </form>
   );

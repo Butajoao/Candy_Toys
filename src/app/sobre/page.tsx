@@ -21,21 +21,21 @@ export default function AboutPage() {
           <SectionTitle
             eyebrow="Sobre"
             title="Candy Toy: brinquedos com doces para o varejo"
-            description="Uma marca brasileira focada em produtos coloridos, divertidos e comerciais para pontos de venda. Confirmar historia, estrutura, registros e cobertura antes da publicacao final."
+            description="Uma marca brasileira focada em produtos coloridos, divertidos e comerciais para pontos de venda. Confirmar história, estrutura, registros e cobertura antes da publicação final."
           />
           <div className="mt-8 grid gap-4">
-            <FeatureCard icon={Factory} title="Empresa brasileira" description="[PENDENTE DE CONFIRMACAO] Usar somente apos validacao institucional." />
-            <FeatureCard icon={Award} title="Compromisso com qualidade" description="Publicar detalhes tecnicos e certificacoes apenas com documentos confirmados." />
-            <FeatureCard icon={ShieldCheck} title="Confiança comercial" description="Site preparado para catalogo B2B, cotacao e contato com atendimento." />
+            <FeatureCard icon={Factory} title="Empresa brasileira" description="[PENDENTE DE CONFIRMAÇÃO] Usar somente após validação institucional." />
+            <FeatureCard icon={Award} title="Compromisso com qualidade" description="Publicar detalhes técnicos e certificações apenas com documentos confirmados." />
+            <FeatureCard icon={ShieldCheck} title="Confiança comercial" description="Site preparado para catálogo B2B, cotação e contato com atendimento." />
           </div>
           <Button className="mt-8" href="/catalogo-b2b">
-            Solicitar catalogo B2B
+            Solicitar catálogo B2B
           </Button>
         </div>
         <div className="overflow-hidden rounded-[2rem] bg-white shadow-2xl shadow-brand-primary/15 ring-4 ring-white/80">
           <Image
             src="/catalog/catalog-page-8.png"
-            alt="Catalogo Candy Toy com informacoes finais"
+            alt="Catálogo Candy Toy com informações finais"
             width={980}
             height={1400}
             className="h-auto w-full object-cover object-top"

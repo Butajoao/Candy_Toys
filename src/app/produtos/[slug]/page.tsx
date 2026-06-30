@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const product = getProductBySlug(slug);
 
   if (!product) {
-    return { title: "Produto nao encontrado" };
+    return { title: "Produto não encontrado" };
   }
 
   return {
@@ -59,7 +59,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
             <div>
               <div className="flex flex-wrap gap-2">
                 <Badge>{product.category}</Badge>
-                {product.launch ? <Badge className="bg-bubble-pink text-white">Lancamento</Badge> : null}
+                {product.launch ? <Badge className="bg-bubble-pink text-white">Lançamento</Badge> : null}
               </div>
               <h1 className="mt-5 font-display text-5xl font-black leading-tight text-brand-navy">
                 {product.name} para revenda
@@ -68,10 +68,10 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
                 <Button href={whatsappUrl(productWhatsappMessage(product.name))} size="lg">
                   <MessageCircle size={20} />
-                  Pedir cotacao deste produto
+                  Pedir cotação deste produto
                 </Button>
                 <Button href="/catalogo-b2b" size="lg" variant="secondary">
-                  Receber catalogo B2B
+                  Receber catálogo B2B
                 </Button>
               </div>
               <div className="mt-8">
@@ -88,7 +88,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
           <SectionTitle
             eyebrow="Relacionados"
             title="Produtos parecidos para montar seu mix"
-            description="Continue a cotacao com linhas da mesma categoria ou solicite o catalogo completo."
+            description="Continue a cotação com linhas da mesma categoria ou solicite o catálogo completo."
           />
           <div className="mt-10">
             <ProductGrid products={relatedProducts.length ? relatedProducts : products.slice(0, 3)} />

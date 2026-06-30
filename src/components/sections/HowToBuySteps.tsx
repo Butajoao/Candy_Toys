@@ -4,10 +4,10 @@ import { CheckCircle2 } from "lucide-react";
 import { motion } from "motion/react";
 
 const steps = [
-  "Escolha os produtos ou solicite o catalogo.",
+  "Escolha os produtos ou solicite o catálogo.",
   "Fale com um vendedor ou representante.",
-  "Receba as condicoes comerciais.",
-  "Faca seu pedido e acompanhe o atendimento.",
+  "Receba as condições comerciais.",
+  "Faça seu pedido e acompanhe o atendimento.",
 ];
 
 export function HowToBuySteps() {

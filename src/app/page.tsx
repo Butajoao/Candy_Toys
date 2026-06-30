@@ -29,7 +29,7 @@ export default function HomePage() {
             <SectionTitle
               eyebrow="Categorias"
               title="Escolha por tipo de produto"
-              description="Organize seu mix por displays, brinquedos com doces, lancamentos e campanhas sazonais."
+              description="Organize seu mix por displays, brinquedos com doces, lançamentos e campanhas sazonais."
             />
             <Button href="/produtos" variant="dark">
               Ver todos os produtos <ArrowRight size={18} />
@@ -49,20 +49,20 @@ export default function HomePage() {
           <div>
             <SectionTitle
               eyebrow="Ponto de venda"
-              title="Feito para vender mais no balcao"
-              description="Produtos pensados para compra por impulso, exposicao facil e impacto visual em pontos com alto fluxo."
+              title="Feito para vender mais no balcão"
+              description="Produtos pensados para compra por impulso, exposição fácil e impacto visual em pontos com alto fluxo."
             />
             <div className="mt-8 grid gap-4 sm:grid-cols-2">
-              <FeatureCard icon={Store} title="Exposicao facil" description="Displays e caixas expositoras ajudam a colocar o produto no balcao com rapidez." />
-              <FeatureCard icon={Sparkles} title="Apelo visual" description="Cores fortes, formatos ludicos e doces coloridos chamam a atencao no PDV." />
-              <FeatureCard icon={PackageCheck} title="Mix para revenda" description="Linhas com referencias e quantidades comerciais para cotacao B2B." />
-              <FeatureCard icon={Handshake} title="Contato comercial" description="Jornada voltada a representante, catalogo, cotacao e atendimento." />
+              <FeatureCard icon={Store} title="Exposição fácil" description="Displays e caixas expositoras ajudam a colocar o produto no balcão com rapidez." />
+              <FeatureCard icon={Sparkles} title="Apelo visual" description="Cores fortes, formatos lúdicos e doces coloridos chamam a atenção no PDV." />
+              <FeatureCard icon={PackageCheck} title="Mix para revenda" description="Linhas com referências e quantidades comerciais para cotação B2B." />
+              <FeatureCard icon={Handshake} title="Contato comercial" description="Jornada voltada a representante, catálogo, cotação e atendimento." />
             </div>
           </div>
           <div className="overflow-hidden rounded-[2rem] bg-white shadow-xl ring-1 ring-brand-navy/10">
             <Image
               src="/catalog/catalog-page-2.png"
-              alt="Display Candy Toy para balcao com brinquedos e doces"
+              alt="Display Candy Toy para balcão com brinquedos e doces"
               width={980}
               height={1400}
               className="h-auto w-full object-cover object-top"
@@ -76,8 +76,8 @@ export default function HomePage() {
         <Container className="relative z-10">
           <SectionTitle
             eyebrow="Destaques"
-            title="Produtos com forte presenca no ponto de venda"
-            description="Cards comerciais com informacoes do catalogo e caminho direto para cotacao."
+            title="Produtos com forte presença no ponto de venda"
+            description="Cards comerciais com informações do catálogo e caminho direto para cotação."
           />
           <div className="mt-10">
             <ProductGrid products={featuredProducts} />
@@ -90,8 +90,8 @@ export default function HomePage() {
         <Container className="relative z-10">
           <SectionTitle
             eyebrow="Como comprar"
-            title="Comprar Candy Toy para sua loja e simples"
-            description="O fluxo B2B prioriza catalogo, atendimento comercial e cotacao."
+            title="Comprar Candy Toy para sua loja é simples"
+            description="O fluxo B2B prioriza catálogo, atendimento comercial e cotação."
           />
           <div className="mt-10">
             <HowToBuySteps />
@@ -104,8 +104,8 @@ export default function HomePage() {
         <Container className="relative z-10 grid gap-10 lg:grid-cols-[0.8fr_1fr]">
           <SectionTitle
             eyebrow="Perguntas"
-            title="Informacoes para comprar com seguranca"
-            description="Marcamos dados nao confirmados como pendencia para evitar afirmacoes comerciais ou legais sem validacao."
+            title="Informações para comprar com segurança"
+            description="Marcamos dados não confirmados como pendência para evitar afirmações comerciais ou legais sem validação."
           />
           <FAQAccordion />
         </Container>
@@ -116,13 +116,13 @@ export default function HomePage() {
         <Container className="relative z-10 grid gap-8 lg:grid-cols-[1fr_auto] lg:items-center">
           <div>
             <span className="inline-flex rounded-full bg-brand-yellow px-4 py-2 text-sm font-black text-brand-navy">
-              Catalogo e cotacao
+              Catálogo e cotação
             </span>
             <h2 className="mt-5 font-display text-4xl font-black leading-tight sm:text-5xl">
               Quer levar Candy Toy para sua loja?
             </h2>
             <p className="mt-4 max-w-2xl text-lg leading-8 text-white/75">
-              Fale com nosso time comercial e receba o catalogo de produtos para revenda.
+              Fale com nosso time comercial e receba o catálogo de produtos para revenda.
             </p>
           </div>
           <div className="flex flex-col gap-3 sm:flex-row">
@@ -130,7 +130,7 @@ export default function HomePage() {
               Falar no WhatsApp <MessageCircle size={20} />
             </Button>
             <Button href="/catalogo-b2b" size="lg" variant="secondary">
-              Baixar catalogo B2B <Boxes size={20} />
+              Baixar catálogo B2B <Boxes size={20} />
             </Button>
           </div>
         </Container>

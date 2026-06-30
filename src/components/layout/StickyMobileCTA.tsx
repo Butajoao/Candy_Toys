@@ -16,7 +16,7 @@ export function StickyMobileCTA() {
         className="inline-flex h-12 items-center justify-center gap-2 rounded-full bg-brand-yellow text-sm font-black text-brand-navy"
       >
         <FileDown size={18} />
-        Catalogo
+        Catálogo
       </a>
     </div>
   );

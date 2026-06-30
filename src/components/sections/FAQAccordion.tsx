@@ -6,21 +6,21 @@ const faqs = [
   {
     question: "A Candy Toy vende para consumidor final?",
     answer:
-      "O site prioriza atendimento comercial para lojistas, revendedores e distribuidores. Consumidores podem usar a pagina Onde encontrar.",
+      "O site prioriza atendimento comercial para lojistas, revendedores e distribuidores. Consumidores podem usar a página Onde encontrar.",
   },
   {
     question: "Como comprar para minha loja?",
     answer:
-      "Solicite o catalogo B2B, escolha os produtos de interesse e fale com o atendimento comercial para receber condicoes.",
+      "Solicite o catálogo B2B, escolha os produtos de interesse e fale com o atendimento comercial para receber condições.",
   },
   {
-    question: "Tem pedido minimo?",
-    answer: "[PENDENTE DE CONFIRMACAO] O pedido minimo deve ser validado pelo time comercial.",
+    question: "Tem pedido mínimo?",
+    answer: "[PENDENTE DE CONFIRMAÇÃO] O pedido mínimo deve ser validado pelo time comercial.",
   },
   {
-    question: "Os produtos possuem certificacao?",
+    question: "Os produtos possuem certificação?",
     answer:
-      "[PENDENTE DE CONFIRMACAO] Certificacoes e registros nao devem ser publicados sem documento oficial confirmado.",
+      "[PENDENTE DE CONFIRMAÇÃO] Certificações e registros não devem ser publicados sem documento oficial confirmado.",
   },
 ];
 

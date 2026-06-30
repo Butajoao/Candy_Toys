@@ -6,8 +6,8 @@ import { Container } from "@/components/ui/Container";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 
 export const metadata: Metadata = {
-  title: "Catalogo B2B",
-  description: "Receba o catalogo B2B Candy Toy para revenda em lojas, bombonieres, mercados e distribuidores.",
+  title: "Catálogo B2B",
+  description: "Receba o catálogo B2B Candy Toy para revenda em lojas, bombonieres, mercados e distribuidores.",
 };
 
 export default function CatalogPage() {
@@ -17,14 +17,14 @@ export default function CatalogPage() {
       <Container className="relative z-10 grid gap-10 lg:grid-cols-[0.85fr_1fr] lg:items-start">
         <div>
           <SectionTitle
-            eyebrow="Catalogo B2B"
-            title="Receba o catalogo B2B Candy Toy"
-            description="Preencha seus dados comerciais para receber informacoes de produtos para revenda e atendimento do time comercial."
+            eyebrow="Catálogo B2B"
+            title="Receba o catálogo B2B Candy Toy"
+            description="Preencha seus dados comerciais para receber informações de produtos para revenda e atendimento do time comercial."
           />
           <div className="mt-8 overflow-hidden rounded-3xl bg-white shadow-2xl shadow-brand-primary/15 ring-4 ring-white/80">
             <Image
               src="/catalog/catalog-page-1.png"
-              alt="Capa do catalogo Candy Toy 2025"
+              alt="Capa do catálogo Candy Toy 2025"
               width={980}
               height={1400}
               className="h-auto w-full object-cover"

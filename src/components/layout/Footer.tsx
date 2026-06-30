@@ -13,14 +13,14 @@ export function Footer() {
           <Image src="/catalog/candytoy-logo.png" width={130} height={90} alt="Candy Toy" />
           <p className="mt-5 max-w-md text-sm leading-7 text-white/75">
             Brinquedos com doces para lojistas, revendedores e distribuidores. Dados institucionais,
-            canais oficiais e politicas legais devem ser confirmados antes do deploy.
+            canais oficiais e políticas legais devem ser confirmados antes do deploy.
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
             <Button href={whatsappUrl(globalWhatsappMessage)} size="sm">
               Falar no WhatsApp
             </Button>
             <Button href="/catalogo-b2b" size="sm" variant="secondary">
-              Catalogo B2B
+              Catálogo B2B
             </Button>
           </div>
         </div>
@@ -46,7 +46,7 @@ export function Footer() {
               <dd>{siteConfig.contact.email}</dd>
             </div>
             <div>
-              <dt className="font-bold text-white">Endereco</dt>
+              <dt className="font-bold text-white">Endereço</dt>
               <dd>{siteConfig.contact.address}</dd>
             </div>
           </dl>

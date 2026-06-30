@@ -37,7 +37,7 @@ export function SeoLanding({
                 Falar com vendedor <MessageCircle size={18} />
               </Button>
               <Button href="/catalogo-b2b" variant="secondary">
-                Catalogo B2B <ArrowRight size={18} />
+                Catálogo B2B <ArrowRight size={18} />
               </Button>
             </div>
           </div>
@@ -51,8 +51,8 @@ export function SeoLanding({
         <Container className="relative z-10">
           <SectionTitle
             eyebrow="Produtos"
-            title="Opcoes para cotacao B2B"
-            description="Veja itens do catalogo e avance para atendimento comercial."
+            title="Opções para cotação B2B"
+            description="Veja itens do catálogo e avance para atendimento comercial."
           />
           <div className="mt-10">
             <ProductGrid products={selectedProducts.length ? selectedProducts : products.slice(0, 6)} />

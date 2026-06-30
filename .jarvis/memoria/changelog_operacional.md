@@ -4,12 +4,13 @@
 
 - Lido `prompt.md`.
 - Renderizado `Catalogo CandyToy.pdf` para PNG.
-- Criado scaffold Next.js manualmente devido a restricao de nome da pasta com letra maiuscula no `create-next-app`.
-- Criados componentes, dados, rotas, formularios, SEO tecnico, README, AGENTS local e memoria Jarvis.
-- Corrigida copia dos PNGs renderizados do catalogo para `public/catalog/`.
+- Criado scaffold Next.js manualmente devido a restrição de nome da pasta com letra maiúscula no `create-next-app`.
+- Criados componentes, dados, rotas, formulários, SEO técnico, README, AGENTS local e memória Jarvis.
+- Corrigida cópia dos PNGs renderizados do catálogo para `public/catalog/`.
 - Ajustada primeira dobra mobile para mostrar produto mais cedo.
 - Validados `eslint`, `tsc --noEmit`, `next build` e smoke test HTTP das rotas principais.
 - Adicionada camada de Motion: hero com mouse tracking/parallax, entradas fade/zoom, cards com hover/zoom e etapas animadas.
-- Aplicados backgrounds coloridos com imagens reais do catalogo em transparencia nas secoes e paginas principais.
-- Criado `public/catalog/candytoy-logo-transparent.png` com remocao do fundo amarelo do recorte da logo.
-- Publicado projeto no GitHub `Butajoao/Candy_Toys`, com validacao de `pnpm typecheck` e `pnpm build`.
+- Aplicados backgrounds coloridos com imagens reais do catálogo em transparência nas seções e páginas principais.
+- Criado `public/catalog/candytoy-logo-transparent.png` com remoção do fundo amarelo do recorte da logo.
+- Publicado projeto no GitHub `Butajoao/Candy_Toys`, com validação de `pnpm typecheck` e `pnpm build`.
+- Revisados acentuação, gramática e textos em português no site, README, AGENTS local e memória Jarvis; revalidados `pnpm typecheck` e `pnpm build`.
