@@ -14,7 +14,7 @@ Implementado:
 - Validacoes executadas: ESLint, TypeScript, build de producao, smoke test HTTP e inspecao visual desktop/mobile com Chrome local.
 - Servidor local iniciado em `http://localhost:3000`.
 - Camada visual atualizada com Motion no hero, cards animados, fundos de catalogo em transparencia por secao e logo com fundo removido.
-- Publicacao para GitHub `Butajoao/Candy_Toys` preparada; remoto existente continha apenas README inicial.
+- Projeto publicado no GitHub `Butajoao/Candy_Toys`; remoto existente continha apenas README inicial e foi integrado sem force push.
 
 Ainda pendente:
 

@@ -12,4 +12,4 @@
 - Adicionada camada de Motion: hero com mouse tracking/parallax, entradas fade/zoom, cards com hover/zoom e etapas animadas.
 - Aplicados backgrounds coloridos com imagens reais do catalogo em transparencia nas secoes e paginas principais.
 - Criado `public/catalog/candytoy-logo-transparent.png` com remocao do fundo amarelo do recorte da logo.
-- Preparada publicacao no GitHub `Butajoao/Candy_Toys`, com validacao de `pnpm typecheck` e `pnpm build`.
+- Publicado projeto no GitHub `Butajoao/Candy_Toys`, com validacao de `pnpm typecheck` e `pnpm build`.
