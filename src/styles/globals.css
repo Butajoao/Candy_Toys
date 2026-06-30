@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-primary: #24469b;
+  --color-brand-sky: #40a0de;
+  --color-brand-navy: #202b60;
+  --color-brand-yellow: #f3ef00;
+  --color-action-primary: #ef233c;
+  --color-bubble-pink: #e52f77;
+  --color-mint-green: #5bbd87;
+  --color-grape-purple: #5e3d7c;
+  --color-orange-pop: #ff8a00;
+  --color-surface-warm: #fffce8;
+  --color-surface-soft: #f7fbff;
+  --color-ink: #172033;
+  --font-display: var(--font-fredoka);
+  --font-sans: var(--font-inter);
+}
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #fffce8;
+  color: #172033;
+  font-family: var(--font-inter), system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: #f3ef00;
+  color: #202b60;
+}
+
+:focus-visible {
+  outline: 3px solid #ef233c;
+  outline-offset: 3px;
+}
+
+.hex-pattern {
+  background-image:
+    radial-gradient(circle at 20% 20%, rgba(243, 239, 0, 0.45), transparent 28%),
+    radial-gradient(circle at 78% 12%, rgba(229, 47, 119, 0.18), transparent 24%),
+    radial-gradient(circle at 82% 74%, rgba(64, 160, 222, 0.2), transparent 26%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,41 @@
+# Mapa de Arquitetura
+
+```txt
+src/
+  app/
+    layout.tsx
+    page.tsx
+    produtos/
+      page.tsx
+      [slug]/page.tsx
+    catalogo-b2b/page.tsx
+    representantes/page.tsx
+    onde-encontrar/page.tsx
+    sobre/page.tsx
+    contato/page.tsx
+    sitemap.ts
+    robots.ts
+  components/
+    animations/
+    forms/
+    layout/
+    product/
+    sections/
+    ui/
+  data/
+    categories.ts
+    navigation.ts
+    products.ts
+    site.ts
+  lib/
+    actions.ts
+    analytics.ts
+    utils.ts
+    validations.ts
+    whatsapp.ts
+  styles/
+    globals.css
+  types/
+    lead.ts
+    product.ts
+```
