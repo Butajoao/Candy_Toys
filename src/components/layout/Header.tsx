@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { Menu, Sparkles, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { motion } from "motion/react";
 import { useState } from "react";
 import { Button } from "@/components/ui/Button";
@@ -13,29 +13,26 @@ export function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-brand-navy/10 bg-surface-warm/95 backdrop-blur">
-      <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
+    <header className="sticky top-0 z-50 border-b-4 border-brand-yellow bg-white/95 shadow-[0_10px_32px_rgba(32,43,96,0.12)] backdrop-blur">
+      <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-4 sm:h-24 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center gap-3" aria-label="Candy Toy home">
           <motion.span
-            className="relative flex h-16 w-36 items-center justify-center rounded-full bg-white/90 shadow-lg shadow-brand-sky/20 ring-1 ring-brand-sky/25"
-            whileHover={{ scale: 1.04, rotate: -1.5 }}
+            className="flex h-16 w-36 items-center justify-center overflow-hidden rounded-2xl bg-brand-yellow p-1.5 shadow-[0_12px_28px_rgba(36,70,155,0.24)] ring-2 ring-brand-sky/25 sm:h-20 sm:w-44"
+            whileHover={{ scale: 1.035, y: -1 }}
             transition={{ type: "spring", stiffness: 320, damping: 18 }}
           >
-            <span className="absolute -right-1 -top-1 flex h-7 w-7 items-center justify-center rounded-full bg-brand-yellow text-brand-navy shadow-md">
-              <Sparkles size={15} />
-            </span>
             <Image
               src="/catalog/candytoy-logo-transparent.png"
-              width={128}
-              height={88}
+              width={180}
+              height={124}
               alt="Candy Toy"
               priority
-              className="h-auto w-28 drop-shadow-md"
+              className="h-full w-full rounded-xl object-contain drop-shadow-md"
             />
           </motion.span>
         </Link>
 
-        <nav className="hidden items-center gap-6 text-sm font-bold text-brand-navy lg:flex">
+        <nav className="hidden items-center gap-6 rounded-full bg-surface-warm/80 px-6 py-3 text-sm font-bold text-brand-navy shadow-sm ring-1 ring-brand-navy/10 lg:flex">
           {navigation.map((item) => (
             <Link key={item.href} href={item.href} className="transition hover:text-action-primary">
               {item.label}

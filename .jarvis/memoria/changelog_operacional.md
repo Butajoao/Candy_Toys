@@ -16,3 +16,4 @@
 - Revisados acentuação, gramática e textos em português no site, README, AGENTS local e memória Jarvis; revalidados `pnpm typecheck` e `pnpm build`.
 - Incorporado `catalogo candytoys atualizado.pdf` como nova fonte de verdade do catálogo, substituindo produtos/categorias antigos por 16 produtos ativos e criando `CATALOG_UPDATE_PLAN.md`, `CATALOG_UPDATE_NOTES.md` e `CATALOG_QA_CHECKLIST.md`.
 - Corrigido script `pnpm lint` para executar `eslint .`; validações `pnpm lint`, `pnpm typecheck`, `pnpm build` e smoke HTTP passaram após a atualização do catálogo.
+- Ajustado header superior: removido ícone/selo de estrela sobre a logo e reforçado destaque visual do topo com barra branca, borda amarela, sombra e navegação em suporte discreto.
