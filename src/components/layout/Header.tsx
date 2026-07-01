@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { Menu, Sparkles, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { motion } from "motion/react";
 import { useState } from "react";
 import { Button } from "@/components/ui/Button";
@@ -17,20 +17,17 @@ export function Header() {
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center gap-3" aria-label="Candy Toy home">
           <motion.span
-            className="relative flex h-16 w-36 items-center justify-center rounded-full bg-white/90 shadow-lg shadow-brand-sky/20 ring-1 ring-brand-sky/25"
+            className="flex h-16 w-36 items-center justify-center"
             whileHover={{ scale: 1.04, rotate: -1.5 }}
             transition={{ type: "spring", stiffness: 320, damping: 18 }}
           >
-            <span className="absolute -right-1 -top-1 flex h-7 w-7 items-center justify-center rounded-full bg-brand-yellow text-brand-navy shadow-md">
-              <Sparkles size={15} />
-            </span>
             <Image
-              src="/catalog/candytoy-logo-transparent.png"
+              src="/catalog/candytoy-logo-clean.png"
               width={128}
               height={88}
               alt="Candy Toy"
               priority
-              className="h-auto w-28 drop-shadow-md"
+              className="h-auto w-32 object-contain"
             />
           </motion.span>
         </Link>
