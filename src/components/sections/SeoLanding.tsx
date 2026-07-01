@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Container";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 import { products } from "@/data/products";
+import { normalizeSearch } from "@/lib/utils";
 import { globalWhatsappMessage, whatsappUrl } from "@/lib/whatsapp";
 
 export function SeoLanding({
@@ -22,7 +23,7 @@ export function SeoLanding({
   productFilter?: string;
 }) {
   const selectedProducts = productFilter
-    ? products.filter((product) => product.category.toLowerCase().includes(productFilter.toLowerCase()))
+    ? products.filter((product) => normalizeSearch(product.category).includes(normalizeSearch(productFilter)))
     : products.slice(0, 6);
 
   return (

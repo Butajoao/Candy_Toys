@@ -15,6 +15,7 @@ Implementado:
 - Servidor local iniciado em `http://localhost:3000`.
 - Camada visual atualizada com Motion no hero, cards animados, fundos de catálogo em transparência por seção e logo com fundo removido.
 - Projeto publicado no GitHub `Butajoao/Candy_Toys`; remoto existente continha apenas README inicial e foi integrado sem force push.
+- Catálogo atualizado incorporado a partir de `catalogo candytoys atualizado.pdf`, com 16 produtos ativos, novas categorias comerciais, PDF público atualizado e documentação `CATALOG_UPDATE_*`.
 
 Ainda pendente:
 
@@ -23,3 +24,4 @@ Ainda pendente:
 - Dados institucionais confirmados.
 - Recortes oficiais de produto/logo.
 - QA visual, Lighthouse e revisão de segurança antes de produção.
+- Recortes individuais por produto a partir do catálogo atualizado.

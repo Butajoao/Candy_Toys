@@ -26,7 +26,7 @@ Reconstrução do site Candy Toy como plataforma comercial B2B para lojistas, re
 - `/brinquedos-com-doces`
 - `/displays-para-lojas`
 - `/doces-com-brinquedos-para-revenda`
-- `/lançamentos`
+- `/lancamentos`
 
 ## Variáveis de ambiente
 
@@ -37,7 +37,7 @@ NEXT_PUBLIC_WHATSAPP_NUMBER=5500000000000
 
 ## Assets
 
-Os assets iniciais foram derivados do arquivo `Catalogo CandyToy.pdf` fornecido no workspace. As páginas renderizadas estão em `public/catalog/` e o PDF público em `public/catalog/catalogo-candytoy-2025.pdf`.
+Os assets atuais foram derivados do arquivo `catalogo candytoys atualizado.pdf` fornecido no workspace. As páginas renderizadas estão em `public/catalog/` e o PDF público em `public/catalog/catalogo-candytoy-atualizado.pdf`.
 
 Pendência: substituir páginas inteiras por recortes oficiais de produto e logo transparente aprovado quando disponíveis.
 
@@ -72,6 +72,7 @@ pnpm dev
 - WhatsApp usa placeholder enquanto o número oficial não for informado.
 - Catálogo PDF não substitui uma experiência acessível completa; o HTML do catálogo deve evoluir.
 - Lighthouse/QA visual devem ser executados em ambiente com build validado.
+- A atualização do catálogo está documentada em `CATALOG_UPDATE_PLAN.md`, `CATALOG_UPDATE_NOTES.md` e `CATALOG_QA_CHECKLIST.md`.
 
 ## Commit sugerido
 

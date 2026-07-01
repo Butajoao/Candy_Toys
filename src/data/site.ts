@@ -3,7 +3,7 @@ export const siteConfig = {
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.candytoy.com.br",
   description:
     "Brinquedos com doces para lojistas, revendedores e distribuidores que buscam produtos coloridos e prontos para exposição.",
-  catalogPdf: "/catalog/catalogo-candytoy-2025.pdf",
+  catalogPdf: "/catalog/catalogo-candytoy-atualizado.pdf",
   contact: {
     whatsappLabel: "WhatsApp comercial",
     phone: "[PENDENTE DE CONFIRMAÇÃO]",

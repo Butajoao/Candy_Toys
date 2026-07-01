@@ -12,7 +12,7 @@ export default function LaunchesPage() {
       eyebrow="Lançamentos"
       title="Lançamentos Candy Toy para revenda"
       description="Novidades do catálogo para renovar seu mix com produtos coloridos e prontos para exposição."
-      image="/catalog/catalog-page-3.png"
+      image="/catalog/catalog-page-5.png"
       productFilter="Lançamentos"
     />
   );

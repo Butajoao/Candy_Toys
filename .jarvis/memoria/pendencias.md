@@ -9,3 +9,5 @@
 - Definir destino de leads: e-mail, CRM, planilha, webhook ou WhatsApp.
 - Substituir assets de páginas inteiras por fotos/recortes oficiais de produto.
 - Rodar Lighthouse e QA visual após build.
+- Confirmar se os 10 modelos de Candy Espadas devem virar produtos separados ou permanecer como linha/display.
+- Criar redirect para `/produtos/candy-coelhos` caso exista tráfego indexado.

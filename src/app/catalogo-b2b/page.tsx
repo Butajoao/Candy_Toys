@@ -2,8 +2,10 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import { CatalogLeadForm } from "@/components/forms/CatalogLeadForm";
 import { SectionBackdrop } from "@/components/sections/SectionBackdrop";
+import { Button } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Container";
 import { SectionTitle } from "@/components/ui/SectionTitle";
+import { siteConfig } from "@/data/site";
 
 export const metadata: Metadata = {
   title: "Catálogo B2B",
@@ -19,12 +21,15 @@ export default function CatalogPage() {
           <SectionTitle
             eyebrow="Catálogo B2B"
             title="Receba o catálogo B2B Candy Toy"
-            description="Preencha seus dados comerciais para receber informações de produtos para revenda e atendimento do time comercial."
+            description="Preencha seus dados comerciais para receber informações de produtos para revenda ou consulte o PDF atualizado do catálogo."
           />
+          <Button className="mt-6" href={siteConfig.catalogPdf} variant="secondary">
+            Baixar catálogo atualizado
+          </Button>
           <div className="mt-8 overflow-hidden rounded-3xl bg-white shadow-2xl shadow-brand-primary/15 ring-4 ring-white/80">
             <Image
               src="/catalog/catalog-page-1.png"
-              alt="Capa do catálogo Candy Toy 2025"
+              alt="Capa do catálogo atualizado Candy Toy"
               width={980}
               height={1400}
               className="h-auto w-full object-cover"

@@ -7,7 +7,8 @@ Reconstruir o site Candy Toy como experiência comercial B2B para brinquedos com
 ## Fonte de verdade
 
 - `prompt.md`
-- `Catalogo CandyToy.pdf`
+- `catalogo candytoys atualizado.pdf`
+- `prompt_atualizacao_catalogo.md`
 - `.jarvis/memoria/*`
 
 ## Regras especificas

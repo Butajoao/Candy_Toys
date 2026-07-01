@@ -6,6 +6,7 @@ import { Container } from "@/components/ui/Container";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 import { categories } from "@/data/categories";
 import { products } from "@/data/products";
+import { normalizeSearch } from "@/lib/utils";
 
 export const metadata: Metadata = {
   title: "Produtos para Revenda",
@@ -16,17 +17,17 @@ type Search = Promise<Record<string, string | string[] | undefined>>;
 
 export default async function ProductsPage({ searchParams }: { searchParams?: Search }) {
   const params = (await searchParams) ?? {};
-  const query = typeof params.busca === "string" ? params.busca.toLowerCase() : "";
+  const query = typeof params.busca === "string" ? normalizeSearch(params.busca) : "";
   const category = typeof params.categoria === "string" ? params.categoria : "";
   const selectedCategory = categories.find((item) => item.slug === category);
 
   const filteredProducts = products.filter((product) => {
     const matchesQuery = query
-      ? `${product.name} ${product.category} ${product.shortDescription} ${product.sku ?? ""}`
-          .toLowerCase()
-          .includes(query)
+      ? normalizeSearch(`${product.name} ${product.category} ${product.shortDescription} ${product.sku ?? ""}`).includes(query)
       : true;
-    const matchesCategory = selectedCategory ? product.category.toLowerCase().includes(selectedCategory.name.split(" ")[0].toLowerCase()) : true;
+    const matchesCategory = selectedCategory
+      ? normalizeSearch(product.category).includes(normalizeSearch(selectedCategory.name.split(" ")[0]))
+      : true;
     return matchesQuery && matchesCategory;
   });
 

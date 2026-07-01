@@ -3,6 +3,12 @@ export type ProductImage = {
   alt: string;
 };
 
+export type ProductSource = {
+  file: string;
+  page: number;
+  notes?: string;
+};
+
 export type Product = {
   id: string;
   slug: string;
@@ -24,6 +30,7 @@ export type Product = {
   featured?: boolean;
   launch?: boolean;
   bestSeller?: boolean;
+  source?: ProductSource;
 };
 
 export type Category = {
